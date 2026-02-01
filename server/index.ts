@@ -1,10 +1,8 @@
 // server/index.ts
 import express from "express";
-import serverless from "serverless-http";
 import path from "path";
 import { fileURLToPath } from "url";
 
-// Helpers for __dirname in ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -19,5 +17,13 @@ app.get("*", (_req, res) => {
   res.sendFile(path.join(staticPath, "index.html"));
 });
 
-// Export handler for Vercel serverless
-export const handler = serverless(app);
+// For local development
+if (process.env.NODE_ENV !== "production") {
+  const PORT = process.env.PORT || 3000;
+  app.listen(PORT, () => {
+    console.log(`Server running locally at http://localhost:${PORT}`);
+  });
+}
+
+// Export the app for Vercel
+export default app;
