@@ -9,7 +9,7 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin()];
 
 export default defineConfig({
   plugins,
-  base: process.env.VITE_BASE_PATH || "/irma-portfolio",
+  base: process.env.VITE_BASE_PATH || "/girma-portfolio",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
