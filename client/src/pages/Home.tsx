@@ -79,14 +79,14 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
       {/* Navigation */}
-      <nav className="fixed top-4 left-0 right-0 z-50 pointer-events-none">
+      <nav className="fixed top-2 md:top-4 left-0 right-0 z-50 pointer-events-none">
         <div className="container max-w-4xl">
-          <div className="flex items-center justify-between px-6 py-3 bg-background/40 backdrop-blur-xl border border-border/50 rounded-full shadow-2xl pointer-events-auto">
+          <div className="flex items-center justify-between px-4 py-2 md:px-6 md:py-3 bg-background/40 backdrop-blur-xl border border-border/50 rounded-full shadow-2xl pointer-events-auto">
             <div className="text-xl font-black font-mono tracking-tighter text-accent drop-shadow-[0_0_8px_rgba(0,255,0,0.5)]">
               <Code2>GT</Code2>
             </div>
-            <div className="flex items-center gap-8">
-              <div className="flex gap-8 text-md font-mono uppercase tracking-widest text-muted-foreground">
+            <div className="flex items-center gap-4 md:gap-8">
+              <div className="flex gap-4 md:gap-8 text-xs md:text-md font-mono uppercase tracking-widest text-muted-foreground">
                 <a
                   href="#projects"
                   className="hover:text-accent transition-all duration-300 hover:scale-105"
@@ -141,10 +141,10 @@ export default function Home() {
             <div className="space-y-8">
               <div>
                 <h1 className="text-5xl md:text-6xl font-bold font-mono mb-4 ">
-                  Girma Tesafaye
+                  Girma Tesfaye
                 </h1>
                 <p className="text-xl text-muted-foreground">
-                  Full-Stack Developer | Vibe Coder
+                  Mobile & Web Developer
                 </p>
               </div>
               <p className="text-lg leading-relaxed text-foreground/90">
@@ -252,6 +252,22 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
+              {
+                title: "HU Story",
+                description:
+                  "HU Story is a mobile application designed for Hawassa University students. It provides a platform where students can anonymously share their thoughts and experiences, discover popular spots around campus, explore upcoming events, and showcase projects they have built.",
+                tags: ["React Native", "Nativewind", "Supabase"],
+                repo: "https://github.com/girmatesfaye/Keys.git",
+                demo: "",
+              },
+              {
+                title: "Keys",
+                description:
+                  "Keys is a mobile app used to store email addresses and passwords for different websites and apps in an easy and organized way. It also includes a password generator.",
+                tags: ["React Native", "Nativewind"],
+                repo: "https://github.com/girmatesfaye/Keys.git",
+                demo: "",
+              },
               {
                 title: "LibraryConnect-Hawassa",
                 description:
