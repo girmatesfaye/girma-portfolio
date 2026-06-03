@@ -148,14 +148,10 @@ export default function Home() {
                 </p>
               </div>
               <p className="text-lg leading-relaxed text-foreground/90">
-                I don't just code—I{" "}
-                <span className="text-accent font-semibold">vibe code</span>{" "}
-                🎧💻. With{" "}
-                <span className="text-accent font-semibold">
-                  AI as my co-pilot
-                </span>
-                , I explore modern tech, build clean solutions, and keep
-                learning every day.
+                I build software with curiosity, creativity, and modern
+                development tools. By combining technical expertise with
+                AI-assisted workflows, I create efficient solutions while
+                continuously exploring new technologies and improving my craft.
               </p>
               {/* Tech Stack Icons */}
               <div className="space-y-4">
