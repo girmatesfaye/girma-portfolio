@@ -181,6 +181,7 @@ export default function Home() {
                       "TypeScript",
                       "Supabase",
                       "Firebase",
+                      ".NET",
                       "React Native [for mobile]",
                     ].map(tech => (
                       <span
