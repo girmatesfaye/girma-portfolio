@@ -256,6 +256,7 @@ export default function Home() {
                 description:
                   "FixIt is a Full-Stack application that connects Hawassa residents with local repair services. Users can report issues, request quotes, and book appointments for home repairs, plumbing, electrical work, and more.",
                 tags: ["React Native", "Nativewind", "MongoDB"],
+                image: "/images/hero-bg.png",
                 repo: "https://github.com/girmatesfaye/Keys.git",
                 demo: "https://fixit-hawassa-frontend.onrender.com/",
               },
@@ -376,6 +377,15 @@ export default function Home() {
                     project.isLocked ? "blur-[3px] transition-all" : ""
                   }
                 >
+                  {project.image && (
+                    <div className="mb-5 overflow-hidden rounded-xl border border-accent/15 bg-background/40">
+                      <img
+                        src={project.image}
+                        alt={`${project.title} preview`}
+                        className="h-44 w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                  )}
                   <h3 className="text-xl font-bold font-mono mb-3 text-foreground group-hover:text-accent transition-colors">
                     {project.title}
                   </h3>
