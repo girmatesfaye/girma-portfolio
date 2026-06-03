@@ -253,7 +253,7 @@ export default function Home() {
                 description:
                   "FixIt is a Full-Stack application that connects Hawassa residents with local repair services. Users can report issues, request quotes, and book appointments for home repairs, plumbing, electrical work, and more.",
                 tags: ["React Native", "Nativewind", "MongoDB"],
-                image: "/images/hero-bg.png",
+                image: "/images/fixit-ui.png",
                 repo: "https://github.com/girmatesfaye/Keys.git",
                 demo: "https://fixit-hawassa-frontend.onrender.com/",
               },
@@ -262,7 +262,7 @@ export default function Home() {
                 description:
                   "HU Story is a mobile application designed for Hawassa University students. It provides a platform where students can anonymously share their thoughts and experiences, discover popular spots around campus, explore upcoming events, and showcase projects they have built.",
                 tags: ["React Native", "Nativewind", "Supabase"],
-                image: "/images/hero-bg.png",
+                image: "/images/hu-ui.png",
                 repo: "https://github.com/girmatesfaye/Keys.git",
                 demo: "",
               },
@@ -271,7 +271,7 @@ export default function Home() {
                 description:
                   "Keys is a mobile app used to store email addresses and passwords for different websites and apps in an easy and organized way. It also includes a password generator.",
                 tags: ["React Native", "Nativewind"],
-                image: "/images/hero-bg.png",
+                image: "/images/key-ui.png",
                 repo: "https://github.com/girmatesfaye/Keys.git",
                 demo: "",
               },
