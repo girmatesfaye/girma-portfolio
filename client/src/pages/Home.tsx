@@ -387,6 +387,12 @@ export default function Home() {
                       <img
                         src={project.image}
                         alt={`${project.title} preview`}
+                        loading="lazy"
+                        onError={e => {
+                          const img = e.currentTarget as HTMLImageElement;
+                          img.onerror = null;
+                          img.src = "/images/hero-bg.png";
+                        }}
                         className="h-44 w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
