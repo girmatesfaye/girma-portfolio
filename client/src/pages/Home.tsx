@@ -223,16 +223,15 @@ export default function Home() {
 
             {/* Right: Visual Element */}
             <div className="hidden md:flex items-center justify-center">
-              <div className="relative w-64 h-64">
-                <div className="absolute inset-0 border-2 border-accent/30 rounded-lg animate-pulse" />
-                <div className="absolute inset-4 border border-accent/20 rounded-lg" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <Code2 className="w-20 h-20 text-accent mx-auto mb-4 opacity-50" />
-                    <p className="text-sm text-muted-foreground font-mono">
-                      Building the future
-                    </p>
-                  </div>
+              <div className="relative w-80 max-w-full rounded-2xl border border-accent/25 bg-background/40 p-3 shadow-2xl shadow-accent/10 backdrop-blur-sm">
+                <div className="absolute -inset-1 rounded-2xl bg-gradient-to-br from-accent/20 via-transparent to-transparent blur-xl" />
+                <img
+                  src="/images/hero-bg.png"
+                  alt="Developer workspace background"
+                  className="relative h-80 w-full rounded-xl border border-accent/20 object-cover object-center"
+                />
+                <div className="absolute inset-x-6 bottom-6 rounded-full border border-accent/20 bg-background/70 px-4 py-2 text-center font-mono text-xs uppercase tracking-[0.3em] text-accent backdrop-blur-md">
+                  Building the future
                 </div>
               </div>
             </div>
@@ -252,6 +251,14 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
+              {
+                title: "FixIt - Hawassa",
+                description:
+                  "FixIt is a mobile app that connects Hawassa residents with local repair services. Users can report issues, request quotes, and book appointments for home repairs, plumbing, electrical work, and more.",
+                tags: ["React Native", "Nativewind", "MongoDB"],
+                repo: "https://github.com/girmatesfaye/Keys.git",
+                demo: "https://fixit-hawassa-frontend.onrender.com/",
+              },
               {
                 title: "HU Story",
                 description:
