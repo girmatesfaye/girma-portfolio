@@ -252,7 +252,13 @@ export default function Home() {
                 title: "FixIt - Hawassa",
                 description:
                   "FixIt is a Full-Stack application that connects Hawassa residents with local repair services. Users can report issues, request quotes, and book appointments for home repairs, plumbing, electrical work, and more.",
-                tags: ["React Native", "Nativewind", "MongoDB"],
+                tags: [
+                  "React.js",
+                  "Tailwind CSS",
+                  "Express.js",
+                  "Node.js",
+                  "MongoDB",
+                ],
                 image: "/images/fixit-ui.png",
                 repo: "https://github.com/girmatesfaye/Keys.git",
                 demo: "https://fixit-hawassa-frontend.onrender.com/",
