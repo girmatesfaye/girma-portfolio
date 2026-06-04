@@ -197,7 +197,7 @@ export default function Home() {
               {/* CTA Buttons */}
               <div className="flex gap-4 pt-4">
                 <a
-                  href="https://github.com/girmatesafaye"
+                  href="https://github.com/girmatesfaye?tab=repositories"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -223,7 +223,7 @@ export default function Home() {
               <div className="relative w-80 max-w-full rounded-2xl border border-accent/25 bg-background/40 p-3 shadow-2xl shadow-accent/10 backdrop-blur-sm">
                 <div className="absolute -inset-1 rounded-2xl bg-gradient-to-br from-accent/20 via-transparent to-transparent blur-xl" />
                 <img
-                  src="/images/hero-bg.png"
+                  src="/images/my-image.jpg"
                   alt="Developer workspace background"
                   className="relative h-80 w-full rounded-xl border border-accent/20 object-cover object-center"
                 />
@@ -260,7 +260,7 @@ export default function Home() {
                   "MongoDB",
                 ],
                 image: "/images/fixit-ui.png",
-                repo: "https://github.com/girmatesfaye/Keys.git",
+                repo: "https://github.com/girmatesfaye/FixIt-Hawassa",
                 demo: "https://fixit-hawassa-frontend.onrender.com/",
               },
               {
@@ -269,8 +269,8 @@ export default function Home() {
                   "HU Story is a mobile application designed for Hawassa University students. It provides a platform where students can anonymously share their thoughts and experiences, discover popular spots around campus, explore upcoming events, and showcase projects they have built.",
                 tags: ["React Native", "Nativewind", "Supabase"],
                 image: "/images/hu-ui.png",
-                repo: "https://github.com/girmatesfaye/Keys.git",
-                demo: "",
+                repo: "https://github.com/girmatesfaye/Hu-Story",
+                demo: "https://github.com/girmatesfaye/HU-Story-Website/releases/download/v2/HU.Story.Update.apk",
               },
               {
                 title: "Keys",
@@ -278,8 +278,8 @@ export default function Home() {
                   "Keys is a mobile app used to store email addresses and passwords for different websites and apps in an easy and organized way. It also includes a password generator.",
                 tags: ["React Native", "Nativewind"],
                 image: "/images/key-ui.png",
-                repo: "https://github.com/girmatesfaye/Keys.git",
-                demo: "",
+                repo: "https://github.com/girmatesfaye/Keys",
+                demo: "https://github.com/girmatesfaye/Keys",
               },
               {
                 title: "LibraryConnect-Hawassa",
