@@ -49,7 +49,7 @@
   --card-foreground: #000000;
   --popover: #ffffff;
   --popover-foreground: #000000;
-  --primary: #00ff00;
+  --primary: #06b6d4; /* cooler teal for light theme */
   --primary-foreground: #000000;
   --secondary: #f1f5f9;
   --secondary-foreground: #000000;
@@ -76,6 +76,10 @@
   --sidebar-accent-foreground: #000000;
   --sidebar-border: #e2e8f0;
   --sidebar-ring: #00ff00;
+  --font-sans:
+    "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  --font-heading: "Sora", var(--font-sans);
 }
 
 .dark {
@@ -119,7 +123,7 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--font-sans);
   }
   h1,
   h2,
@@ -127,7 +131,7 @@
   h4,
   h5,
   h6 {
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--font-heading);
     font-weight: 700;
     letter-spacing: -0.02em;
   }
