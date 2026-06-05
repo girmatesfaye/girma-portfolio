@@ -249,9 +249,9 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                title: "FixIt - Hawassa",
+                title: "Muyaye - Hawassa",
                 description:
-                  "FixIt is a Full-Stack application that connects Hawassa residents with local repair services. Users can report issues, request quotes, and book appointments for home repairs, plumbing, electrical work, and more.",
+                  "Muyaye is a Full-Stack application that connects Hawassa residents with local repair services. Users can report issues, request quotes, and book appointments for home repairs, plumbing, electrical work, and more.",
                 tags: [
                   "React.js",
                   "Tailwind CSS",
